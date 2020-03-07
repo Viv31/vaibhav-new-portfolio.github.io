@@ -1,0 +1,394 @@
+
+.jumbotron::before{
+  background-color: rgba(0,0,0,0.7);
+
+}
+
+#home{
+  
+  background-image: url('../img/youtube.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro {
+  background-color: rgba(0,0,0,0.7);
+  width: 20%;
+  color: white;
+  
+  padding: 5px;
+}
+
+.intro p {
+  font-size: 12px!important;
+}
+
+/* CSS for experience section */
+#expenrience{
+  background-color: lightgreen;
+  padding:5px;
+}
+.work_exp{
+  background-color: #f9f2f2;
+  padding: 10px;
+  margin-top: 5px;
+  min-height: 200px;
+}
+
+.work_exp:hover{
+ background-color: rgba(0,0,0,0.7);
+  padding: 10px;
+  margin-top: 5px;
+  min-height: 200px;
+  color: white;
+}
+
+
+
+/* Education Section */
+
+#education{
+  background-color: lightblue;
+  padding:5px;
+  margin-top: 5px;
+
+
+}
+
+
+.education{
+  background-color: lightgrey;
+  min-height: 300px;
+  height: 350px;
+  padding:5px;
+  text-align: center;
+   border: 2px solid #ffffff;
+}
+
+.education:hover{
+  background-color: #d64141;
+  color: white;
+  box-shadow: 10px 10px 5px grey;
+}
+.education:hover h4{
+  background-color: #ffffff;
+  color: black;
+}
+
+
+/*Skills section */
+
+#skills{
+  /*background-image: linear-gradient(red, yellow);*/
+  background-image: url('../img/b.jpg');
+  background-size: cover;
+  padding:5px;
+  margin-top: 5px;
+}
+#skill_section{
+
+
+margin-left: 2px;
+margin-right: 2px;
+}
+
+/* Project Section */
+
+#projects{
+  margin-top: 5px;
+  background-color: lightgrey;
+}
+
+#btn_container{
+  
+  margin: 5px;
+}
+.all_btn{
+  height: 30px;
+  width: 50px;
+}
+
+.php_btn{
+  height: 30px;
+  }
+
+.dotnet_btn{
+  height: 30px;
+}
+
+.all_btn:hover{
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+   
+}
+.php_btn:hover{
+ background-color: transparent;
+  color: black;
+  border: 1px solid black;
+   
+}
+
+.dotnet_btn:hover{
+    background-color: transparent;
+  color: black;
+  border: 1px solid black;
+   
+}
+
+.content{
+ border: 2px solid white;
+  height: 250px;
+  min-height: 250px;
+  padding: 3px;
+
+}
+.content:hover,h4:hover{
+  text-align: center;
+  background-color: rgba(0,0,0,0.7);
+  color: white;
+
+}
+
+.content img:hover {
+ 
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+
+
+
+/* Hobbies Section*/
+#hobbies{
+background-image: url('../img/e.jpg');
+background-size: cover;
+background-position: center;
+margin-top: 2px;
+margin-right: auto;
+margin-left: auto;
+max-height: 500px;
+
+}
+
+.hobbie_container{
+  background-color: cornsilk;
+  border: 2px solid lightgrey;
+ border-bottom-right-radius: 30px;
+ border-top-left-radius: 30px;
+ box-shadow: 10px 10px 5px grey;
+
+}
+
+
+.hobbie_container:hover{
+text-transform: uppercase;
+
+ box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+    
+    
+}
+
+/* For making iamge center */
+
+img.hobbie_img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* Achievement  */
+#achievements{
+  margin-top: 5px;
+  background-color: #86a586;
+}
+
+.achievements_container{
+  line-height: 30px;
+}
+/* Hiding li default style*/
+li{
+  list-style: none;
+}
+
+/* making trophy color and size */
+.fa-trophy::before {
+    font-size: 20px;
+    color: gold;
+    padding: 3px;
+}
+
+.achievements_container ul li:hover{
+  background-color: rgba(0,0,0,0.7);
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+/* Footer section*/
+
+#contact{
+  background-color: rgba(0,0,0,0.7);
+  height: 100px;
+  text-decoration: none;
+
+}
+
+.myfooter{
+  text-decoration: none;
+  text-align: center;
+
+}
+
+.myfooter a{ 
+  color: white;
+
+}
+
+.mail{
+  color: white;
+}
+
+
+.fa-github{
+  font-size: 25px;
+}
+
+
+
+
+
+.fa-linkedin-square{
+  font-size: 25px;
+}
+
+.fa-stack-overflow{
+  font-size: 25px;
+}
+
+.fa-envelope{
+  font-size: 25px;
+}
+
+/* making Scroll behavior smooth*/
+
+html {
+  scroll-behavior: smooth;
+ 
+}
+
+
+/* Change navbar color*/
+.navbar-inverse {
+    background-color: #4b526d;
+    border-color: #080808;
+    color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #f1e6e6;
+}
+
+
+
+
+/* Media Query for below 300 width*/
+@media only screen and (max-width: 320px) {
+
+  body{
+   
+
+  }
+
+
+.intro {
+    background-color: rgba(0,0,0,0.7);
+    width: 40% !important;
+    color: white;
+    padding: 5px;
+}
+
+h2{
+     font-size: 10px;
+    }
+  #contact {
+    background-color: rgba(0,0,0,0.7);
+    height: auto;
+    
+}
+img.hobbie_img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4px;
+    display: block;
+}
+
+.content {
+    border: 2px solid white;
+    height: 185px;
+    min-height: 131px;
+    padding: 3px;
+    text-align: center;
+
+}
+
+#btn_container {
+     margin: 0px; 
+}
+
+.work_exp{
+  word-break: break-word!important;
+}
+
+.work_exp img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: auto;
+  
+}
+
+.img-circle {
+  margin-top: 40px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+#home {
+    background-image: url(../img/youtube.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+}
+
+
+ 
+
+
+@media screen and (max-width: 350px) {
+  body {
+   
+  }
+ 
+}
+
+
+@media only screen and (max-width: 275px) {
+
+  body{
+   
+
+  }
+
+  .intro {
+    background-color: rgba(0,0,0,0.7);
+    width: 100% !important;
+    color: white;
+    padding: 5px;
+}
+  }
