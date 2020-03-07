@@ -392,3 +392,37 @@ img.hobbie_img {
     padding: 5px;
 }
   }
+
+
+  @media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+
+
+  .intro {
+    background-color: rgba(0,0,0,0.7);
+    width: 50%;
+    color: white;
+    padding: 5px;
+}
+
+  .content {
+    border: 2px solid white;
+    height: 250px;
+    min-height: 372px;
+    padding: 3px;
+}
+
+#achievements {
+    margin-top: 5px;
+    background-color: #86a586;
+    margin-top: 55px;
+}
+
+#contact {
+    background-color: rgba(0,0,0,0.7);
+    height: 150px;
+    text-decoration: none;
+}
+}
