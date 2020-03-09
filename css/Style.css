@@ -24,7 +24,7 @@
   padding: 5px;
 }
 
-.typed_wrap p {
+.typed_wrap h6 {
   font-size: 12px!important;
 }
 
@@ -314,7 +314,7 @@ html {
   transform: translate(-50%,-50%);
 }
 
-.typed_wrap h2 {
+.typed_wrap h6 {
   display: inline;
   color:white;
 }
