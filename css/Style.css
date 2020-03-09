@@ -16,7 +16,7 @@
     margin-top: 40px;
 }
 
-.intro {
+.typed_wrap {
   background-color: rgba(0,0,0,0.7);
   width: 20%;
   color: white;
@@ -24,7 +24,7 @@
   padding: 5px;
 }
 
-.intro p {
+.typed_wrap p {
   font-size: 12px!important;
 }
 
@@ -294,6 +294,63 @@ html {
 .navbar-inverse .navbar-nav>li>a {
     color: #f1e6e6;
 }
+
+/*  CSS for Typing Effects  */
+
+
+.typed_wrap {
+  display: block;
+  
+  padding: 20px;
+  
+  /*centers it in the .banner*/
+  position: absolute;
+  top: 50%;
+  left: 43%;
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+.typed_wrap h2 {
+  display: inline;
+  color:white;
+}
+
+/*Add custom cursor so it auto inherits font styles*/
+.typed::after {
+  content: '|';
+  display: inline;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+
+/*Removes cursor that comes with typed.js*/
+.typed-cursor{
+   opacity: 0;
+  display: none;
+}
+/*Custom cursor animation*/
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+
 
 
 @media only screen and (min-width : 320px) and (max-width:479px) {

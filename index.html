@@ -46,14 +46,16 @@
   </nav>
 	<div class="container">
 		<div class="jumbotron" id="home">
-			<div class="profile_img">
+      <div class="profile_img">
         <img src="img/vaibhav.jpg" class="img-circle" height="150" width="150">
-       <div class="intro"> <p style="font-weight: bold;text-align:center;">VAIBHAV GANGRADE<p>
-       <p style="font-weight: bold;text-align:center;">Developer At Brillsense Pvt Limited</p> 
-       </div>
+      <div class="typed_wrap">
+      <h6>Hi,<span class="typed"></span></h6>
+    </div>
       </div>
-			
-		</div>
+
+      
+      
+    </div>
 		<div class="row" id="expenrience">
 			<h2 class="text-primary text-center">Work </h2>
 			<div class="col-md-4 experience_section">
@@ -441,7 +443,41 @@ $('.dotnet').show();
  });
  
 
-
+$(function(){
+  $(".typed").typed({
+    strings: ["I am,Web Developer","I am, Vaibhav Gangrade"],
+    // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
+    stringsElement: null,
+    // typing speed
+    typeSpeed: 100,
+    // time before typing starts
+    startDelay: 1600,
+    // backspacing speed
+    backSpeed: 100,
+    // time before backspacing
+    backDelay: 900,
+    // loop
+    loop: true,
+    // false = infinite
+    loopCount: 15,
+    // show cursor
+    showCursor: false,
+    // character for cursor
+    cursorChar: "|",
+    // attribute to type (null == text)
+    attr: null,
+    // either html or text
+    contentType: 'html',
+    // call when done callback function
+    callback: function() {},
+    // starting callback function before each string
+    preStringTyped: function() {},
+    //callback for every typed string
+    onStringTyped: function() {},
+    // callback for reset
+    resetCallback: function() {}
+  });
+});
 
 
 </script>
