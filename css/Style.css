@@ -401,6 +401,13 @@ body {
     text-decoration: none;
     line-height: 22px;
 }
+
+.typed_wrap{
+  height: 70px;
+  width: 200px;
+  top: 33%!important;
+  left: 50%!important;
+}
 }
 
 /* smartphones, iPhone, portrait 480x320 phones */ 
