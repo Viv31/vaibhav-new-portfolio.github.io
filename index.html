@@ -548,10 +548,10 @@ $(function(){
 
 //For auto hide button on reaching id
 
-$(document).on('click','.navbar-toggleable-xs.in',function(e) {
-    if( $(e.target).is('a') ) {
-        $(this).collapse('hide');
-    }
+$(document).ready(function () {
+    $("nav").find("li").on("click", "a", function () {
+        $('.navbar-collapse.in').collapse('hide');
+    });
 });
 
 </script>
