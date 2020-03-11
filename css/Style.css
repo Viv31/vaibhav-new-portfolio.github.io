@@ -97,6 +97,22 @@ margin-left: 2px;
 margin-right: 2px;
 }
 
+
+.progress-bar-info {
+    background-color: #3b615b!important;
+}
+
+.progress-bar-primary {
+  
+    background-color: #3f6688!important;
+   
+}
+.progress-bar-default {
+    
+    background-color: #884f7d!important;
+   
+}
+
 /* Project Section */
 
 #projects{
